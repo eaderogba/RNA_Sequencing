@@ -1,0 +1,109 @@
+STAR version=2.7.11a
+STAR compilation time,server,dir=2023-11-22T20:54:50+01:00 :/home/eaderogba279/software_trimmomatic/STAR/source
+STAR git: On branch master ; commit 79affaae7d5e70221287762eab4e40679fad87f7 ; diff files: 
+##### Command Line:
+STAR --runThreadN 2 --runMode genomeGenerate --genomeDir /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR --genomeSAindexNbases 10 --sjdbGTFfile /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.110.gtf --genomeFastaFiles /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    2     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR     ~RE-DEFINED
+genomeSAindexNbases           10     ~RE-DEFINED
+sjdbGTFfile                   /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.110.gtf     ~RE-DEFINED
+genomeFastaFiles              /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa        ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        2
+genomeDir                         /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR
+genomeFastaFiles                  /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa   
+genomeSAindexNbases               10
+sjdbGTFfile                       /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.110.gtf
+
+-------------------------------
+##### Final effective command line:
+STAR   --runMode genomeGenerate      --runThreadN 2   --genomeDir /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR   --genomeFastaFiles /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa      --genomeSAindexNbases 10   --sjdbGTFfile /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.110.gtf
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory created: /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR/
+Nov 23 16:32:46 ... starting to generate Genome files
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 0  "I" chrStart: 0
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 1  "II" chrStart: 262144
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 2  "III" chrStart: 1310720
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 3  "IV" chrStart: 1835008
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 4  "V" chrStart: 3407872
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 5  "VI" chrStart: 4194304
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 6  "VII" chrStart: 4718592
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 7  "VIII" chrStart: 6029312
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 8  "IX" chrStart: 6815744
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 9  "X" chrStart: 7340032
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 10  "XI" chrStart: 8126464
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 11  "XII" chrStart: 8912896
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 12  "XIII" chrStart: 10223616
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 13  "XIV" chrStart: 11272192
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 14  "XV" chrStart: 12058624
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 15  "XVI" chrStart: 13369344
+/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.dna.primary_assembly.fa : chr # 16  "Mito" chrStart: 14417920
+Chromosome sequence lengths: 
+I	230218
+II	813184
+III	316620
+IV	1531933
+V	576874
+VI	270161
+VII	1090940
+VIII	562643
+IX	439888
+X	745751
+XI	666816
+XII	1078177
+XIII	924431
+XIV	784333
+XV	1091291
+XVI	948066
+Mito	85779
+Genome sequence total length = 12157105
+Genome size with padding = 14680064
+Nov 23 16:32:46 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/Saccharomyces_cerevisiae.R64-1-1.110.gtf, found:
+		7127 transcripts
+		7507 exons (non-collapsed)
+		364 collapsed junctions
+Total junctions: 364
+Nov 23 16:32:46 ..... finished GTF processing
+
+Estimated genome size with padding and SJs: total=genome+SJ=215680064 = 14680064 + 201000000
+GstrandBit=32
+Number of SA indices: 24314210
+Nov 23 16:32:46 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 1;   chunks size limit: 194513680 bytes
+Nov 23 16:32:46 ... sorting Suffix Array chunks and saving them to disk...
+Writing 194513680 bytes into /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR//SA_0 ; empty space on disk = 178250256384 bytes ... done
+Nov 23 16:32:54 ... loading chunks from disk, packing SA...
+Nov 23 16:32:54 ... finished generating suffix array
+Nov 23 16:32:54 ... generating Suffix Array index
+Nov 23 16:32:55 ... completed Suffix Array index
+Nov 23 16:32:55   Finished preparing junctions
+Nov 23 16:32:55 ..... inserting junctions into the genome indices
+Nov 23 16:32:55   Finished SA search: number of new junctions=364, old junctions=0
+Nov 23 16:32:55   Finished sorting SA indicesL nInd=145600
+Genome size with junctions=14753228  14680064   73164
+GstrandBit1=32   GstrandBit=32
+Nov 23 16:32:55   Finished inserting junction indices
+Nov 23 16:32:55   Finished SAi
+Nov 23 16:32:55 ..... finished inserting junctions into genome
+Nov 23 16:32:55 ... writing Genome to disk ...
+Writing 14753228 bytes into /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR//Genome ; empty space on disk = 178250231808 bytes ... done
+SA size in bytes: 100896720
+Nov 23 16:32:55 ... writing Suffix Array to disk ...
+Writing 100896720 bytes into /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR//SA ; empty space on disk = 178235473920 bytes ... done
+Nov 23 16:32:55 ... writing SAindex to disk
+Writing 8 bytes into /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR//SAindex ; empty space on disk = 178134577152 bytes ... done
+Writing 88 bytes into /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR//SAindex ; empty space on disk = 178134577152 bytes ... done
+Writing 6116691 bytes into /home/eaderogba279/Analysing_and_Interpreting_Genomic_Datasets/RNA_Sequencing/genome/STAR//SAindex ; empty space on disk = 178134577152 bytes ... done
+Nov 23 16:32:55 ..... finished successfully
+DONE: Genome generation, EXITING
